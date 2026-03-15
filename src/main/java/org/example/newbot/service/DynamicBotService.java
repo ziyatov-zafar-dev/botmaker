@@ -212,7 +212,7 @@ public class DynamicBotService {
                     ),
                     new UserFunction(
                             botInfoRepository, botUserService,
-                            this, new UserKyb(), new UserMsg()
+                            this, new UserKyb(), new UserMsg(),courseRepository
                     )
             ).onlineCourseBotMenu(botInfo, chatId, update, adminChatId);
         } else return;
