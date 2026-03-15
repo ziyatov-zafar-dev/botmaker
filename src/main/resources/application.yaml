@@ -1,0 +1,24 @@
+
+
+spring:
+  application:
+    name: example-bot
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bot_maker_db
+    username: zafar_mvps
+    password: 122333
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8099
+
+bot:
+  username: https://t.me/bot_maker_1_robot
+  token: 7928701208:AAFR3seQux9zWJimMmfIWx9EQV_2D7CnLe8
+admin:
+  chat:
+    id: 7882316826
+size: 10
