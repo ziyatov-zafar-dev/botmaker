@@ -4,8 +4,8 @@ spring:
   application:
     name: example-bot
   datasource:
-    url: jdbc:postgresql://localhost:5433/oson_market
-    username: postgres
+    url: jdbc:postgresql://localhost:5432/bot_maker_db
+    username: zafar_mvps
     password: 122333
     driver-class-name: org.postgresql.Driver
   jpa:
