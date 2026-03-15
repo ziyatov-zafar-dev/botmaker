@@ -17,7 +17,7 @@ public class BotPrice {
     private String type;
     @Column(unique = true)
     private String typeText;
-    @Column(columnDefinition = "TEXT" , name = "desc")
+    @Column(columnDefinition = "TEXT" , name = "description_text")
     private String description;
     private Boolean active;
     private String status;
