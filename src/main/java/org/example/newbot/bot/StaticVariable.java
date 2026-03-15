@@ -25,7 +25,7 @@ public class StaticVariable {
     public static final String addCategory = "➕ Kategoriya qo'shish";
     public static final String addChannel = "➕ Kanal qo'shish";
     public static final String addProduct = "🛒 Mahsulot qo'shish";
-    public static final String adminTelegramProfile = "@ziyatov_zafar_official";
+    public static final String adminTelegramProfile = "@Ziyatov_Zafar_Official";
 
 
     public static String aboutBotPrice(BotPrice botPrice, Boolean isAdmin,double balance) {
